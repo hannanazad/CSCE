@@ -1,0 +1,29 @@
+# Core ML / JAX stack
+jax>=0.4.25
+jaxlib>=0.4.25
+flax>=0.8.4
+optax>=0.1.9
+
+# Config and CLI
+ml_collections
+absl-py
+
+# Environment / datasets
+ogbench
+gymnasium>=0.29.0
+
+# Numerics and data
+numpy>=1.24.0
+
+# Training utilities
+tqdm
+
+# Plotting / video
+matplotlib
+moviepy
+
+# Optional: D4RL (legacy environments — install only if needed)
+# d4rl @ git+https://github.com/Farama-Foundation/d4rl@master#egg=d4rl
+
+# Optional: distrax (not used by core code but kept for compatibility)
+# distrax>=0.1.5
